@@ -1,0 +1,17 @@
+package:
+  name: hidapi
+  version: "0.0.1"
+
+source:
+  git_url: https://github.com/signal11/hidapi
+
+requirements:
+  build:
+    - libusb >=1.0
+  run:
+    - libusb >=1.0
+
+about:
+  home: http://www.signal11.us/oss/hidapi
+  license: BSD
+  license_file: LICENSE-bsd.txt
